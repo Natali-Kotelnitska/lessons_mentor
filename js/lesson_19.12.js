@@ -41,4 +41,4 @@ function updateObject(obj, objValue) {
     const newObj = {};
     newObj = delete obj[objValue];
 }
- console.log(updateObject({a: 1. b: 2}, 'b'))
+ console.log(updateObject({a: 1, b: 2}, 'b'))
